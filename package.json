@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "node lib/server.js",
-    "build": "npm install && ./build",
+    "build": "npm install --python=python2.7 && ./build",
     "dev": "npm run build && node lib/server.js --verbose"
   }
 }
